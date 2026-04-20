@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { Reveal } from "../Reveal";
-import { CTA } from "../CTA";
+import { Reveal } from "@/components/Reveal";
+import { CTA } from "@/components/CTA";
 
 export function LossCalculator() {
   const [leads, setLeads] = useState(60);
